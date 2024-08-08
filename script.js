@@ -163,3 +163,7 @@ document.getElementById('open-music-btn').addEventListener('click', function() {
         const elements = document.querySelectorAll('.transisi');
         elements.forEach(el => observer.observe(el));
     });
+
+    window.addEventListener('load', function() {
+      document.getElementById('loading-screen').style.display = 'none';
+  });
