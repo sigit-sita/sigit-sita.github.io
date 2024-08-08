@@ -250,11 +250,11 @@ button {
 
 .slider {
     display: flex;
-    width: calc(100% * 6);
+    width: calc(100% * 12); /* 12 adalah perulangan dari 6 gambar / 6 adalah jumlah gambar */ 
 }
 
 .slider img {
-    width: calc(100% / 6 - 20px);
+    width: calc(100% / 12 - 20px); /* 12 adalah perulangan dari 6 gambar / 6 adalah jumlah gambar */ 
     aspect-ratio: 16 / 9;
     object-fit: cover;
     margin: 10px;
@@ -272,7 +272,7 @@ button {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-100% / 6 * 3));
+        transform: translateX(calc(-100% / 12 * 6)); /* 12 adalah perulangan dari 6 gambar / 6 adalah jumlah gambar */ 
     }
 }
 
@@ -283,10 +283,10 @@ button {
 
 @keyframes slide-left-to-right {
     0% {
-        transform: translateX(calc(-100% / 6 * 3));
+        transform: translateX(calc(-100% / 12 * 6)); /* 12 adalah perulangan dari 6 gambar / 6 adalah jumlah gambar */ 
     }
     100% {
-        transform: translateX(0);
+        transform: translateX(0); /* Geser ke posisi awal */
     }
 }
 
