@@ -248,12 +248,26 @@ button {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.slider {
+.slider-atas {
+    display: flex;
+    width: calc(100% * 10); /* 10 adalah perulangan dari 5 gambar / 5 adalah jumlah gambar */ 
+}
+
+.slider-atas img {
+    width: calc(100% / 10 - 20px); /* 10 adalah perulangan dari 5 gambar / 5 adalah jumlah gambar */ 
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.slider-bawah {
     display: flex;
     width: calc(100% * 12); /* 12 adalah perulangan dari 6 gambar / 6 adalah jumlah gambar */ 
 }
 
-.slider img {
+.slider-bawah img {
     width: calc(100% / 12 - 20px); /* 12 adalah perulangan dari 6 gambar / 6 adalah jumlah gambar */ 
     aspect-ratio: 16 / 9;
     object-fit: cover;
@@ -272,7 +286,7 @@ button {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-100% / 12 * 6)); /* 12 adalah perulangan dari 6 gambar / 6 adalah jumlah gambar */ 
+        transform: translateX(calc(-100% / 10 * 5)); /* 10 adalah perulangan dari 5 gambar / 5 adalah jumlah gambar */ 
     }
 }
 
