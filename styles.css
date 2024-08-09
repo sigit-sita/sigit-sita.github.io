@@ -28,7 +28,7 @@ body, html {
 
   .frame-cover {
     background-color: #9adfec;
-    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxkoCAIbQufqes0QEKI8hl_Rq4PpxbS5bktHSnMyZS0zD8vB-wehvx76B7q7FPt2T8RitHczUbjgyadr7-aFgY3SidpfwkdWljfcsLSlAF4ch5FBvDw2wegtOK2H83irWbeR_HW_Kq0ciqN64r_Ikrj0MfOsQp_6dJHOvtxLrzOejKZQ1IYsrdUueDrMY/s1920/1%20copy.jpg');
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIFkySnOFN0hsBuVeRwgSz3SZAy5sfJ_MAo8_vmGJ28wiZQ1TMgLykV2xJIu0q4NkyA1XUfPUazj6p5TQnV67pQWblsRjZXIjLRT0Na4zXRGLPzwvlL49wWUgJcMJWZyoj0Dd3o3oUDT4_5XfNDjsLVhTXedNB8vx0_-DT7N4arc7MuqZFm9Kzka2FRX8/s1920/1%20copyaaaa.jpg');
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,7 +40,7 @@ body, html {
   }
   .frame-1 {
     background-color: #9adfec;
-    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9ggpE8KeCFpaJxy5r-M2d8lgbVyU6DvRHEPr_AZGGOIIQd_58-1Y5XSviAf0-EZjTPokyjwj7D2jXfRv2mnQBktrnfVjQj6qJB4n2ebz-Qh84iRgRjJDENOq3NTIySDcc2hcBGOFYGbDdJmgJyvdbJ6EHVCvXr_yp__0k2EAXnlNzrAjTFBngxiwTPs4/s1080/IMG_6695%20copy%202%20kompress.jpg');
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij-DwOkiNN-ArONCwtpRqkkitutAxhvJaGrYHRupuJWthXvTEaKdNmN42VHC4JpOiAKA0hSlru_oW1ZTs91Qk2BFLDjRZtUHg1_lzXC44dulPoil0hlWJN-jjjPIlIIRWa421hrhjAfQY6t0iN4YEQgHrLSs3VkC-Sc0jEjGt_RubGePwygju97ew6iY0/s1800/IMG_6695%20copy%202%20kompress2.jpg');
     opacity: 90%;
     display: flex;
     flex-direction: column;
